@@ -1,0 +1,16 @@
+username=str(input("Username : "))
+password=str(input("Password : "))
+if username=="prototype"and password=="212303":
+    print("Done")
+    print("-----Welcome-----")
+    print("รายการสินค้า")
+    print("1.Soda - 30 THB")
+    print("2.Snack - 20 THB")
+    print("3.Water - 10 THB")
+    soda=int(input("โซดาจำนวน : "))
+    snack=int(input("ขนมจำนวน : "))
+    water=int(input("น้ำจำนวน : "))
+    total=(soda*30)+(snack*20)+(water*10)
+    print("รวมทั้งหมดเป็นเงิน", total ,"บาท")
+else:
+    print("Wrong Username Or Password")
